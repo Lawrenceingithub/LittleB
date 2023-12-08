@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>計算器</title>
+    <style>
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>成本輸入表</h1>
+      <a href="./recipeList.html">材料詳情頁面</a>
+    </div>
+    <div id="material-list"></div>
+
+    <script src="./db.js"></script>
+    <script>
+      // 获取材料列表的 div 元素
+      const materialList = document.getElementById("material-list");
+
+      // 使用 map 方法生成每个材料的 HTML 元素，并将其添加到材料列表中
+      myList.map((material) => {
+        const materialDiv = document.createElement("div");
+
+        // 创建一个 <span> 元素用于显示 subtotalPrice
+        const subtotalSpan = document.createElement("span");
+
+        // 更新 div 的内容，包括名稱、材料總價、材料總重和平均價格
+        materialDiv.textContent = `名稱: ${material.name}, 平均價格: ${material.getPricePerWeight()}  `;
+
+        // 创建输入框元素
+        const input = document.createElement("input");
+        input.type = "number";
+        input.placeholder = "使用数量";
+        input.addEventListener("input", () => {
+          let totalSum = 0;
+          const inputs = document.querySelectorAll("#material-list input");
+
+          inputs.forEach((input, index) => {
+            let quantity = parseInt(input.value);
+
+            // 检查数量是否为负数
+            if (quantity < 0) {
+              quantity = 0;
+              input.value = 0;
+            }
+
+            // 获取对应材料的价格
+            const materialPrice = myList[index].getPricePerWeight();
+
+            // 计算价格
+            const subtotalPrice = quantity * materialPrice;
+
+            // 更新对应的 subtotalSpan 的文本内容
+            const subtotalSpan = document.querySelectorAll(
+              "#material-list span:last-child"
+            )[index];
+            subtotalSpan.textContent = ` 本次價格：${subtotalPrice}`;
+
+            // 累加总价格
+            totalSum += subtotalPrice;
+          });
+
+          // 更新总和的列表项
+          const totalValueDiv = document.getElementById("total-value");
+          totalValueDiv.textContent = `成本價格：${totalSum}`;
+        });
+
+        // 将输入框添加到 div 中
+        materialDiv.appendChild(input);
+        materialDiv.appendChild(subtotalSpan);
+
+        // 将 div 添加到材料列表中
+        materialList.appendChild(materialDiv);
+      });
+
+      // 添加分隔线
+      const separator = document.createElement("hr");
+      materialList.appendChild(separator);
+
+      // 创建初始的总价格元素
+      const totalValueDiv = document.createElement("div");
+      totalValueDiv.id = "total-value";
+      materialList.appendChild(totalValueDiv);
+
+      // 更新总价格元素的文本内容
+      const updateTotalValue = () => {
+        let totalSum = 0;
+        const subtotalSpans = document.querySelectorAll(
+          "#material-list span:last-child"
+        );
+        subtotalSpans.forEach((span) => {
+          const price = parseFloat(span.textContent.split("：")[1]);
+          if (!isNaN(price)) {
+            totalSum += price;
+          }
+        });
+
+        totalValueDiv.textContent = `成本價格：${totalSum}`;
+      };
+
+      // 初始化总价格
+      updateTotalValue();
+
+      // 在每次输入框值更改时更新总价格
+      const inputs = document.querySelectorAll("#material-list input");
+      inputs.forEach((input) => {
+        input.addEventListener("input", updateTotalValue);
+      });
+    </script>
+  </body>
+</html>

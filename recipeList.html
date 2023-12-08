@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Testing</title>
+    <style>
+        .header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="header">
+        <h1>物品詳細頁面</h1>
+        <a href="./index.html">返回</a>
+      </div>
+</head>
+<body>
+    <ul id="material-list"></ul>
+
+    <script src="./db.js"></script>
+    <script>
+        // 获取材料列表的 ul 元素
+        const materialList = document.getElementById('material-list');
+
+        // 使用 forEach 方法生成每个材料的链接元素，并将其添加到材料列表中
+        myList.forEach(material => {
+            const listItem = document.createElement('ul');
+            const link = document.createElement('a');
+            link.textContent = material.name;
+            link.href = `material-detail.html?id=${material.id}`; // 假设物品有一个唯一的id
+            listItem.appendChild(link);
+            materialList.appendChild(listItem);
+        });
+    </script>
+</body>
+</html>

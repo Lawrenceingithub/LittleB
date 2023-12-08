@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>物品詳細頁面</title>
+    <style>
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>物品詳細頁面</h1>
+      <a href="./recipeList.html">返回</a>
+    </div>
+
+    <div id="material-details"></div>
+
+    <script src="./db.js"></script>
+    <script>
+      // 获取查询参数中的物品ID
+      const urlParams = new URLSearchParams(window.location.search);
+      const materialId = Number(urlParams.get("id")); // 将物品ID转换为数字格式
+
+      // 在db.js中根据物品ID查找对应的物品
+      let material = myList.find((item) => item.id === materialId);
+
+      // 获取物品详情容器元素
+      const materialDetails = document.getElementById("material-details");
+
+      if (material) {
+        // 生成物品详情的HTML
+        const materialHTML = `
+            <h2>${material.name}</h2>
+            <p>材料總價：${material.totalprice} 元</p>
+            <p>材料總重：${material.totalweight} （克/毫升）</p>
+            <p>平均價格：${material.getPricePerWeight()} 元</p>
+        `;
+
+        // 将物品详情HTML添加到容器元素中
+        materialDetails.innerHTML = materialHTML;
+      } else {
+        materialDetails.innerHTML = "<p>物品不存在</p>";
+      }
+    </script>
+  </body>
+</html>
