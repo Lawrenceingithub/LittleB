@@ -31,7 +31,7 @@
 
         // 更新 div 的内容，包括名稱、材料總價、材料總重和平均價格
         const materialHTML = `
-          <span><a href="./materialDetails.html?id=${material.id}">${material.name}</a></span>
+          <span><a href="./material-detail.html?id=${material.id}">${material.name}</a></span>
           <span>平均價格: ${material.getPricePerWeight()}</span>
         `;
         materialDiv.innerHTML = materialHTML;
@@ -48,7 +48,7 @@
             let quantity = parseInt(input.value);
 
             // 检查数量是否为负数
-            if (quantity < 0) {
+            if (isNaN(quantity) || quantity < 0) {
               quantity = 0;
               input.value = 0;
             }
