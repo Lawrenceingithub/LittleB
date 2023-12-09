@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>計算器</title>
+    <title>成本輸入表</title>
     <style>
       .header {
         display: flex;
@@ -30,7 +30,11 @@
         const subtotalSpan = document.createElement("span");
 
         // 更新 div 的内容，包括名稱、材料總價、材料總重和平均價格
-        materialDiv.textContent = `名稱: ${material.name}, 平均價格: ${material.getPricePerWeight()}  `;
+        const materialHTML = `
+          <span><a href="./materialDetails.html?id=${material.id}">${material.name}</a></span>
+          <span>平均價格: ${material.getPricePerWeight()}</span>
+        `;
+        materialDiv.innerHTML = materialHTML;
 
         // 创建输入框元素
         const input = document.createElement("input");
