@@ -32,8 +32,8 @@
       if (material) {
         // 生成物品详情的HTML
         const materialHTML = `
-            <h2>${material.name}</h2>
-            <img src="${material.image}" alt="${material.name}的图片">
+            <h2>${material.materialname}</h2>
+            <img src="${material.image}" alt="${material.materialname}的图片">
             <p>材料總價：${material.totalprice} 元</p>
             <p>材料總重：${material.totalweight} （克/毫升）</p>
             <p>平均價格：${material.getPricePerWeight()} 元</p>

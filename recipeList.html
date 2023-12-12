@@ -25,9 +25,9 @@
 
         // 使用 forEach 方法生成每个材料的链接元素，并将其添加到材料列表中
         myList.forEach(material => {
-            const listItem = document.createElement('li');
+            const listItem = document.createElement('ul');
             const link = document.createElement('a');
-            link.textContent = material.name;
+            link.textContent = material.materialname;
             link.href = `material-detail.html?id=${material.id}`; // 假设物品有一个唯一的id
             listItem.appendChild(link);
             materialList.appendChild(listItem);
