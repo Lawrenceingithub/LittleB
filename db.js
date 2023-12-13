@@ -16,7 +16,7 @@ const myList = [
     type: "奶製品類",
     totalprice: 15,
     totalweight: 3,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -27,7 +27,7 @@ const myList = [
     type: "奶製品類",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -38,7 +38,7 @@ const myList = [
     type: "奶製品類",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -46,10 +46,10 @@ const myList = [
   {
     id: 6,
     materialname: "日本海藻糖-150g",
-    type: "奶製品類",
+    type: "其他",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -57,10 +57,10 @@ const myList = [
   {
     id: 5,
     materialname: "丘比沙律醬香甜口味-300g",
-    type: "奶製品類",
+    type: "其他",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -68,10 +68,10 @@ const myList = [
   {
     id: 7,
     materialname: "丘比沙律醬蛋黃口味-300g",
-    type: "奶製品類",
+    type: "其他",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -79,10 +79,10 @@ const myList = [
   {
     id: 8,
     materialname: "特幼糖霜-454g",
-    type: "奶製品類",
+    type: "其他",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -90,10 +90,10 @@ const myList = [
   {
     id: 9,
     materialname: "Myers's rum-60ml",
-    type: "奶製品類",
+    type: "其他",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -101,10 +101,10 @@ const myList = [
   {
     id: 10,
     materialname: "獅球嘜粟米油-900ml",
-    type: "奶製品類",
+    type: "油類",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -112,10 +112,10 @@ const myList = [
   {
     id: 11,
     materialname: "天然草莓粉-50g",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -123,10 +123,10 @@ const myList = [
   {
     id: 12,
     materialname: "天然藍莓粉-50g",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -134,10 +134,10 @@ const myList = [
   {
     id: 13,
     materialname: "日本凱薩琳（流淚）高筋麵粉-1KG",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -145,10 +145,10 @@ const myList = [
   {
     id: 14,
     materialname: "日清山茶高筋粉-1KG",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -156,10 +156,10 @@ const myList = [
   {
     id: 15,
     materialname: "伯爵茶粉-20g",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -167,10 +167,10 @@ const myList = [
   {
     id: 16,
     materialname: "杏仁粉-500g",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -178,10 +178,10 @@ const myList = [
   {
     id: 17,
     materialname: "泡打粉-30g",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -189,10 +189,10 @@ const myList = [
   {
     id: 18,
     materialname: "金像牌-頂級麵包粉-1KG",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -200,10 +200,10 @@ const myList = [
   {
     id: 19,
     materialname: "昭和製粉-先鋒特高筋-1KG",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -211,10 +211,10 @@ const myList = [
   {
     id: 20,
     materialname: "烘焙用奶粉-500g",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -222,10 +222,10 @@ const myList = [
   {
     id: 21,
     materialname: "特級山茶花高筋麵粉-1KG",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -233,10 +233,10 @@ const myList = [
   {
     id: 22,
     materialname: "粟粉-420g",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -244,10 +244,10 @@ const myList = [
   {
     id: 23,
     materialname: "黑芝麻粉-250g",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -255,10 +255,10 @@ const myList = [
   {
     id: 24,
     materialname: "蜜臘-20g",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -266,10 +266,10 @@ const myList = [
   {
     id: 25,
     materialname: "酵母粉-125g",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -277,10 +277,10 @@ const myList = [
   {
     id: 26,
     materialname: "覆盆子粉-30g",
-    type: "奶製品類",
+    type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -288,10 +288,10 @@ const myList = [
   {
     id: 27,
     materialname: "士多啤梨醬",
-    type: "奶製品類",
+    type: "蔬果類",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -299,10 +299,10 @@ const myList = [
   {
     id: 28,
     materialname: "開心果脆脆醬-250g",
-    type: "奶製品類",
+    type: "蔬果類",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -310,10 +310,10 @@ const myList = [
   {
     id: 29,
     materialname: "藍莓",
-    type: "奶製品類",
+    type: "蔬果類",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -321,10 +321,10 @@ const myList = [
   {
     id: 30,
     materialname: "藍莓醬-284g",
-    type: "奶製品類",
+    type: "蔬果類",
     totalprice: 20,
     totalweight: 8,
-    image: `assets/${this.materialname}.jpeg`,
+    image: ``,
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
