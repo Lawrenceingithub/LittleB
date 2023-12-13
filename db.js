@@ -12,7 +12,7 @@ const myList = [
   },
   {
     id: 2,
-    materialname: "美素佳兒金-3",
+    materialname: "美素佳兒金裝-3",
     type: "奶類製品",
     totalprice: 15,
     totalweight: 3,
@@ -56,7 +56,7 @@ const myList = [
   },
   {
     id: 5,
-    materialname: "丘比沙津醬香甜口味-300g",
+    materialname: "丘比沙律醬香甜口味-300g",
     type: "奶類製品",
     totalprice: 20,
     totalweight: 8,
@@ -67,7 +67,7 @@ const myList = [
   },
   {
     id: 7,
-    materialname: "丘比沙津醬蛋黃口味-300g",
+    materialname: "丘比沙律醬蛋黃口味-300g",
     type: "奶類製品",
     totalprice: 20,
     totalweight: 8,
