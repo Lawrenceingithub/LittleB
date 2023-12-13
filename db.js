@@ -16,7 +16,7 @@ const myList = [
     type: "奶製品類",
     totalprice: 15,
     totalweight: 3,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -27,7 +27,7 @@ const myList = [
     type: "奶製品類",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -38,7 +38,7 @@ const myList = [
     type: "奶製品類",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -49,7 +49,7 @@ const myList = [
     type: "其他",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -60,7 +60,7 @@ const myList = [
     type: "其他",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -71,7 +71,7 @@ const myList = [
     type: "其他",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -82,7 +82,7 @@ const myList = [
     type: "其他",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -93,7 +93,7 @@ const myList = [
     type: "其他",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -104,7 +104,7 @@ const myList = [
     type: "油類",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -115,7 +115,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -126,7 +126,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -137,7 +137,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -148,7 +148,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -159,7 +159,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -170,7 +170,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -181,7 +181,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -192,7 +192,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -203,7 +203,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -214,7 +214,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -225,7 +225,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -236,7 +236,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -247,7 +247,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -258,7 +258,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -269,7 +269,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -280,7 +280,7 @@ const myList = [
     type: "烘焙粉",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -291,7 +291,7 @@ const myList = [
     type: "蔬果類",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -302,7 +302,7 @@ const myList = [
     type: "蔬果類",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -313,7 +313,7 @@ const myList = [
     type: "蔬果類",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
@@ -324,7 +324,7 @@ const myList = [
     type: "蔬果類",
     totalprice: 20,
     totalweight: 8,
-    image: ``,
+    image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
