@@ -23,7 +23,7 @@ const myList = [
   },
   {
     id: 3,
-    materialname: "Anchor-Wipping Cream-1000ml",
+    materialname: "Anchor-Whipping Cream-1000ml",
     type: "奶製品類",
     totalprice: 0,
     totalweight: 1000,
@@ -179,7 +179,7 @@ const myList = [
     id: 17,
     materialname: "泡打粉-30g",
     type: "烘焙粉",
-    totalprice: 0,
+    totalprice: 8,
     totalweight: 30,
     image: '',
     getPricePerWeight: function () {
