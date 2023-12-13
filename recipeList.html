@@ -14,27 +14,33 @@
       <div class="header">
         <h1>物品詳細頁面</h1>
       </div>
-</head>
-<body>
-    <div id="material-list"></div>
 
-    <script src="./db.js"></script>
-    <script>
-        // 获取材料列表的 ul 元素
-        const materialList = document.getElementById('material-list');
+      <div id="material-list"></div>
 
-        // 使用 forEach 方法生成每个材料的链接元素，并将其添加到材料列表中
-        myList.forEach(material => {
-            const listItem = document.createElement('ul');
-            const link = document.createElement('a');
-            link.textContent = material.materialname;
-            link.href = `material-detail.html?id=${material.id}`; // 假设物品有一个唯一的id
-            listItem.appendChild(link);
-            materialList.appendChild(listItem);
-        });
-    </script>
-    <div>
-      <a href="./index.html">返回首頁</a>
-    </div>
-</body>
+      <script src="./db.js"></script>
+      <script>
+          // 获取材料列表的 ul 元素
+          const materialList = document.getElementById('material-list');
+
+          // 使用 forEach 方法生成每个材料的链接元素，并将其添加到材料列表中
+          myList.forEach(material => {
+              const listItem = document.createElement('li');
+              const image = document.createElement('img');
+              image.src = material.image; // 图像路径
+              image.alt = `${material.materialname}的图片`; // 图像的描述文本
+              image.width = 50; // 设置宽度为50像素
+              image.height = 50; // 设置高度为50像素
+              const link = document.createElement('a');
+              link.textContent = material.materialname;
+              link.href = `material-detail.html?id=${material.id}`; // 假设物品有一个唯一的id
+              listItem.appendChild(image);
+              listItem.appendChild(link);
+              materialList.appendChild(listItem);
+          });
+      </script>
+
+      <div>
+        <a href="./index.html">返回首頁</a>
+      </div>
+    </body>
 </html>
