@@ -245,7 +245,7 @@ const myList = [
     id: 23,
     materialname: "黑芝麻粉-250g",
     type: "烘焙粉",
-    totalprice: 0,
+    totalprice: 31.2,
     totalweight: 250,
     image: '',
     getPricePerWeight: function () {
@@ -289,7 +289,7 @@ const myList = [
     id: 27,
     materialname: "士多啤梨醬",
     type: "蔬果類",
-    totalprice: 0,
+    totalprice: 42,
     totalweight: 100,
     image: '',
     getPricePerWeight: function () {
@@ -386,10 +386,10 @@ const myList = [
   },
   {
     id: 36,
-    materialname: "風行老酸奶-3個(180克/個)",
+    materialname: "風行老酸奶-540克",
     type: "奶製品類",
     totalprice: 28.8,
-    totalweight: 3,
+    totalweight: 540,
     image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
@@ -408,7 +408,7 @@ const myList = [
   },
   {
     id: 38,
-    materialname: "伊美瑞士乳酪-100g",
+    materialname: "伊美瑞士覆盆子乳酪-100g",
     type: "奶製品類",
     totalprice: 10,
     totalweight: 100,
@@ -434,6 +434,83 @@ const myList = [
     type: "烘焙粉",
     totalprice: 9.5,
     totalweight: 56,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 41,
+    materialname: "雞蛋-1隻",
+    type: "其他",
+    totalprice: 1.5,
+    totalweight: 1,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 42,
+    materialname: "LittleFreddie香蕉泥-100g",
+    type: "其他",
+    totalprice: 20,
+    totalweight: 100,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 43,
+    materialname: "黃百香果-1隻",
+    type: "蔬果類",
+    totalprice: 5,
+    totalweight: 1,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 44,
+    materialname: "覆盆子-110g",
+    type: "蔬果類",
+    totalprice: 24,
+    totalweight: 110,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 45,
+    materialname: "MAISON草莓果醬-200g",
+    type: "蔬果類",
+    totalprice: 48,
+    totalweight: 200,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 46,
+    materialname: "低筋麵粉-1KG",
+    type: "烘焙粉",
+    totalprice: 19.9,
+    totalweight: 1000,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 47,
+    materialname: "廣州酒家低糖白蓮蓉-500g",
+    type: "其他",
+    totalprice: 28,
+    totalweight: 500,
     image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
