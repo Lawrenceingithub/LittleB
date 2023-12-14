@@ -14,8 +14,8 @@ const myList = [
     id: 2,
     materialname: "美素佳兒金裝-3",
     type: "奶製品類",
-    totalprice: 0,
-    totalweight: 100,
+    totalprice: 230,
+    totalweight: 900,
     image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
@@ -25,7 +25,7 @@ const myList = [
     id: 3,
     materialname: "Anchor-Whipping Cream-1000ml",
     type: "奶製品類",
-    totalprice: 0,
+    totalprice: 67.9,
     totalweight: 1000,
     image: '',
     getPricePerWeight: function () {
@@ -36,7 +36,7 @@ const myList = [
     id: 4,
     materialname: "Anchor安佳黃油-227g",
     type: "奶製品類",
-    totalprice: 0,
+    totalprice: 28.5,
     totalweight: 227,
     image: '',
     getPricePerWeight: function () {
@@ -58,7 +58,7 @@ const myList = [
     id: 5,
     materialname: "丘比沙律醬香甜口味-300g",
     type: "其他",
-    totalprice: 0,
+    totalprice: 19.9,
     totalweight: 300,
     image: '',
     getPricePerWeight: function () {
@@ -69,7 +69,7 @@ const myList = [
     id: 7,
     materialname: "丘比沙律醬蛋黃口味-300g",
     type: "其他",
-    totalprice: 0,
+    totalprice: 19.9,
     totalweight: 300,
     image: '',
     getPricePerWeight: function () {
@@ -80,7 +80,7 @@ const myList = [
     id: 8,
     materialname: "特幼糖霜-454g",
     type: "其他",
-    totalprice: 0,
+    totalprice: 15.9,
     totalweight: 454,
     image: '',
     getPricePerWeight: function () {
@@ -102,7 +102,7 @@ const myList = [
     id: 10,
     materialname: "獅球嘜粟米油-900ml",
     type: "油類",
-    totalprice: 0,
+    totalprice: 107,
     totalweight: 900,
     image: '',
     getPricePerWeight: function () {
@@ -234,7 +234,7 @@ const myList = [
     id: 22,
     materialname: "粟粉-420g",
     type: "烘焙粉",
-    totalprice: 0,
+    totalprice: 24.8,
     totalweight: 420,
     image: '',
     getPricePerWeight: function () {
@@ -267,7 +267,7 @@ const myList = [
     id: 25,
     materialname: "酵母粉-125g",
     type: "烘焙粉",
-    totalprice: 0,
+    totalprice: 26.8,
     totalweight: 125,
     image: '',
     getPricePerWeight: function () {
@@ -309,10 +309,10 @@ const myList = [
   },
   {
     id: 29,
-    materialname: "藍莓",
+    materialname: "藍莓-1盒",
     type: "蔬果類",
-    totalprice: 0,
-    totalweight: 55,
+    totalprice: 48,
+    totalweight: 1,
     image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
@@ -322,8 +322,118 @@ const myList = [
     id: 30,
     materialname: "藍莓醬-284g",
     type: "蔬果類",
-    totalprice: 0,
+    totalprice: 35.5,
     totalweight: 284,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 31,
+    materialname: "十字牌百香果酸奶-90g",
+    type: "奶製品類",
+    totalprice: 9.5,
+    totalweight: 90,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 32,
+    materialname: "雀巢牌藍莓酸奶-90g",
+    type: "奶製品類",
+    totalprice: 9.5,
+    totalweight: 140,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 33,
+    materialname: "檸檬-1個",
+    type: "蔬果類",
+    totalprice: 2.5,
+    totalweight: 1,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 34,
+    materialname: "百福豆腐-250g",
+    type: "蔬果類",
+    totalprice: 13.5,
+    totalweight: 250,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 35,
+    materialname: "香蕉-5條",
+    type: "蔬果類",
+    totalprice: 20.8,
+    totalweight: 5,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 36,
+    materialname: "風行老酸奶-3個(180克/個)",
+    type: "奶製品類",
+    totalprice: 28.8,
+    totalweight: 3,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 37,
+    materialname: "太古砂糖-800g",
+    type: "其他",
+    totalprice: 12.5,
+    totalweight: 800,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 38,
+    materialname: "伊美瑞士乳酪-100g",
+    type: "奶製品類",
+    totalprice: 10,
+    totalweight: 100,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 39,
+    materialname: "鑽石牌低筋面粉-908g",
+    type: "烘焙粉",
+    totalprice: 20.5,
+    totalweight: 908,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
+  },
+  {
+    id: 40,
+    materialname: "理想牌泡打粉-56g",
+    type: "烘焙粉",
+    totalprice: 9.5,
+    totalweight: 56,
     image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
