@@ -476,7 +476,7 @@ const myList = [
     id: 44,
     materialname: "覆盆子-110g",
     type: "蔬果類",
-    totalprice: 24,
+    totalprice: 17,
     totalweight: 110,
     image: '',
     getPricePerWeight: function () {
@@ -516,6 +516,16 @@ const myList = [
       return this.totalprice / this.totalweight;
     },
   },
+    {
+    id: 48,
+    materialname: "草莓",
+    type: "蔬果類",
+    totalprice: 0,
+    totalweight: 500,
+    image: '',
+    getPricePerWeight: function () {
+      return this.totalprice / this.totalweight;
+    },
 ];
 
 myList.forEach(item => {
