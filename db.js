@@ -526,6 +526,7 @@ const myList = [
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
     },
+  },
 ];
 
 myList.forEach(item => {
