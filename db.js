@@ -103,7 +103,7 @@ const myList = [
     materialname: "獅球嘜粟米油-900ml",
     type: "油類",
     totalprice: 107,
-    totalweight: 3600,
+    totalweight: 3600,  
     image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
