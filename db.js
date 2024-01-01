@@ -14,7 +14,7 @@ const myList = [
     id: 2,
     materialname: "美素佳兒金裝-3",
     type: "奶製品類",
-    totalprice: 230,
+    totalprice: 245,
     totalweight: 900,
     image: '',
     getPricePerWeight: function () {
@@ -103,7 +103,7 @@ const myList = [
     materialname: "獅球嘜粟米油-900ml",
     type: "油類",
     totalprice: 107,
-    totalweight: 900,
+    totalweight: 3600,
     image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
@@ -234,7 +234,7 @@ const myList = [
     id: 22,
     materialname: "粟粉-420g",
     type: "烘焙粉",
-    totalprice: 24.8,
+    totalprice: 12.8,
     totalweight: 420,
     image: '',
     getPricePerWeight: function () {
@@ -276,10 +276,10 @@ const myList = [
   },
   {
     id: 26,
-    materialname: "覆盆子粉-30g",
+    materialname: "覆盆子粉-50g",
     type: "烘焙粉",
-    totalprice: 26,
-    totalweight: 30,
+    totalprice: 34,
+    totalweight: 50,
     image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
@@ -309,10 +309,10 @@ const myList = [
   },
   {
     id: 29,
-    materialname: "藍莓-1盒",
+    materialname: "藍莓-200g",
     type: "蔬果類",
     totalprice: 48,
-    totalweight: 1,
+    totalweight: 200,
     image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
@@ -408,10 +408,10 @@ const myList = [
   },
   {
     id: 38,
-    materialname: "伊美瑞士覆盆子乳酪-100g",
+    materialname: "滿果MONFRUIT覆盆子乳酪-125g",
     type: "奶製品類",
-    totalprice: 10,
-    totalweight: 100,
+    totalprice: 11,
+    totalweight: 125,
     image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
@@ -474,10 +474,10 @@ const myList = [
   },
   {
     id: 44,
-    materialname: "覆盆子-110g",
+    materialname: "覆盆子-冷凍品",
     type: "蔬果類",
-    totalprice: 24,
-    totalweight: 110,
+    totalprice: 168,
+    totalweight: 1000,
     image: '',
     getPricePerWeight: function () {
       return this.totalprice / this.totalweight;
