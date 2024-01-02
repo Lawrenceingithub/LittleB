@@ -311,7 +311,7 @@ const myList = [
     id: 29,
     materialname: "藍莓-200g",
     type: "蔬果類",
-    totalprice: 48,
+    totalprice: 38,
     totalweight: 200,
     image: '',
     getPricePerWeight: function () {
